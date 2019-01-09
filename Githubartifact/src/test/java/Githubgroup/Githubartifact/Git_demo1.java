@@ -27,6 +27,7 @@ public class Git_demo1 {
 
 	  @AfterTest
 	  public void afterTest() {
+		  System.out.println("close browser");
 		  driver.quit();
 	  }
 
